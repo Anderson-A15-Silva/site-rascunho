@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+* {
+    margin: 4px;
+    padding: 1px;
+    text-decoration: none;
+    font-size: 12px;
+    width: 100px;
+    height: 200px;
+    list-style: none;
+}
+
+#pBody {
+    display: block;
+    background: black;
+    box-shadow: 2px solid black;
+    background: purple;
+}
+
+#pPage {
+    background: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding-right: 80px;
+    box-shadow: 2px 2px 4px blueviolet;;
+    width: 80px;
+}
+
+#pMenu {
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+}
+
+#pLista {
+    display: block;
+    position: relative;
+}
+
+#itemOne, #pHome {
+    color: white;
+    position: relative;
+    margin-bottom: 20px;
+} 
+
+#itemTwo, #pSobre {
+    color: white;
+    position: relative;
+    margin-bottom: 20px;
+} 
+
+#itemThree, #pGit{
+    color: white;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#itemOne:hover #pHome {
+    background: rgba(255, 255, 255, 0.1);
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#itemTwo:hover #pSobre {
+    background: rgba(255, 255, 255, 0.1);
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#itemThree:hover #pGit {
+    background: rgba(255, 255, 255, 0.1);
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#itemOne {
+    display: inline-block;
+}
+
+#itemTwo {
+    display: inline-block;
+}
+
+#itemThree {
+    display: inline-block;
+}
+
+ul.pItem li {
+    display: inline-block;
+}
+footer, header {
+    margin-top: 20px;
+}
