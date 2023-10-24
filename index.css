@@ -10,6 +10,11 @@
     list-style: none;
 }
 
+#icone {
+    position: absolute;
+    float: left;
+}
+
 #pBody {
     display: block;
     background: black;

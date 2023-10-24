@@ -38,6 +38,7 @@
 }
 
 #sMenu {
+    top: 0px;
     display: inline-block;
     padding: 0px;
     margin-bottom: 0px;
