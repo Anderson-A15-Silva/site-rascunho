@@ -1,107 +1,77 @@
 @charset "utf-8";
 
-* {
-    margin: 4px;
-    padding: 1px;
-    text-decoration: none;
-    font-size: 12px;
-    width: 80px;
-    height: 200px;
-    list-style: none;
+#icone {
+    float: left;
+    margin-left: 10px;
+    width: 8px;
+    height: 8px;
 }
 
-#sBody {
-    display: block;
+body {
+    background: rgb(243, 13, 243);
+    width: 360px;
+    height: 750px;
+    margin: 0%;
+}
+
+section {
     background: black;
-    box-shadow: 2px solid black;
-    background: purple;
+    margin-left:2%;
+    padding: 4%;
+    width: 98%;
+    height: 100%;
+    color: blueviolet;
+    font-size: auto;
 }
 
-.sobre {
-    background: black;
-    color: white;
-    border: 2px solid black;
-    border-radius: 12px;
-    padding-right: 80px;
-    box-shadow: 2px 2px 4px blueviolet;;
-    width: 80px;
-}
-
-#sPage {
-    background: black;
-    color: white;
-    border: 2px solid black;
-    border-radius: 12px;
-    padding-right: 80px;
-    box-shadow: 2px 2px 4px blueviolet;;
-    width: 80px;
-}
-
-#sMenu {
-    top: 0px;
-    display: inline-block;
-    padding: 0px;
+li {
+    margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 2px;
+    margin-left: 0px;
+    margin-right: 2px;
+    display: inline-block;
+    padding: 6px;
 }
 
-#sLista {
-    display: block;
-    position: relative;
+.pItem {
+    color: white;
+    text-decoration: none;
 }
 
-#itemFour, #sHome {
-    color: white;
-    position: relative;
-    margin-bottom: 20px;
-} 
-
-#itemFive, #sSobre {
-    color: white;
-    position: relative;
-    margin-bottom: 20px;
-} 
-
-#itemSix, #sGit{
-    color: white;
-    position: relative;
-    margin-bottom: 20px;
+h1 {
+    text-align: center;
+    text-shadow: 0.4px 0.4px 0.4px white;
 }
 
-#itemFour:hover #sHome {
-    background: rgba(255, 255, 255, 0.1);
-    color: blueviolet;
+#sHome:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
     text-decoration: underline;
 }
 
-#itemFive:hover #sSobre {
-    background: rgba(255, 255, 255, 0.1);
-    color: blueviolet;
+#sSobre:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
     text-decoration: underline;
 }
 
-#itemSix:hover #sGit {
-    background: rgba(255, 255, 255, 0.1);
-    color: blueviolet;
+#sGit:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
     text-decoration: underline;
 }
 
-#itemFour {
-    display: inline-block;
+input {
+    background: rgb(218, 211, 211);
+    margin-bottom: 5px;
 }
 
-#itemFive {
-    display: inline-block;
+textarea {
+  width: 240px;
+  height: 100px;
 }
 
-#itemSix {
-    display: inline-block;
-}
-
-ul.pItem li {
-    display: inline-block;
-}
-
-footer, header {
-    margin-top: 20px;
+footer {
+  margin-top: 10px;
+  text-align: center;
 }
