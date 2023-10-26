@@ -68,6 +68,11 @@ textarea {
   height: 100px;
 }
 
+input {
+    background: blue;
+    color: black;
+}
+
 footer {
   margin-top: 10px;
   text-align: center;
