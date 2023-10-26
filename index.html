@@ -29,12 +29,15 @@
         <input type="number" id="pIdade" min="6" max="80">
         <br>
         <fieldset> <legend><label name="nSexo">Sexo</label></legend>
+          <label name="nSexo" for="pMasc">Masculino</label>
         <input type="radio" value="Masculino" id="pMasc" name="nSexo">
+        <label name="nSexo" for="pFem">Feminino</label>
         <input type="radio" value="Feminino" id="pFem" name="nSexo">
         </fieldset>
         <br> 
         <label for="pIQ">QI: </label>
         <input type="range" id="pQI" min="90" max="270" readonly>
+
         <h2>Estatísticas</h2> <label for="forca">Força: </label>
         <input type="range" id="pFor" min="-1" max="6" name="forca">
         <br> 
@@ -54,7 +57,7 @@
         <label for="pHistoria"> História: </label>
         <br> 
         <textarea id="pHistoria">
-                    </textarea>
+        </textarea>
         <br> 
         <label for="pPersonalidade"> Personalidade: </label>
         <br> 
