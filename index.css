@@ -7,20 +7,42 @@ body {
 
 section {
     background: black;
+    margin-top: 2%;
     margin-left:2%;
     padding: 4%;
-    width: 98%;
+    width: 96%;
     height: 100%;
     color: blueviolet;
     font-size: auto;
 }
 
+button {
+    margin-left: 20px;
+    margin-top: 6px;
+    width: 20px;
+    height: 20px;
+}
+
+img {
+    position: relative;
+    background: white;
+    margin-left: -6px;;
+    /*
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 6px;
+    */
+    width: 16px;
+    height: 16px;
+}
+
+
 li {
+    display: none;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 0px;
+    margin-left: 3.5px;
     margin-right: 2px;
-    display: inline-block;
     padding: 6px;
 }
 
@@ -47,12 +69,6 @@ h1 {
 }
 
 #pGit:hover {
-    background: rgba(255, 255, 255, 0.5);
-    color: black;
-    text-decoration: underline;
-}
-
-#pContato:hover {
     background: rgba(255, 255, 255, 0.5);
     color: black;
     text-decoration: underline;

@@ -36,3 +36,11 @@ function exibirValores() {
     console.log("Nome :", intelecto)
     console.log("Nome :", presenca)
 }
+
+/*
+const exibirMenu = () => {
+    let menu = document.head.querySelectorAll('li');
+    menu.style.display = 'inline-block'
+
+}
+*/
