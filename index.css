@@ -1,3 +1,4 @@
+/* Formatação do Corpo da Página */
 body {
     background: rgb(243, 13, 243);
     width: 360px;
@@ -5,6 +6,7 @@ body {
     margin: 0%;
 }
 
+/* Formatação da Sessão da Página (Externa)*/
 section {
     background: black;
     margin-top: 2%;
@@ -16,29 +18,9 @@ section {
     font-size: auto;
 }
 
-button {
-    margin-left: 20px;
-    margin-top: 6px;
-    width: 20px;
-    height: 20px;
-}
-
-img {
-    position: relative;
-    background: white;
-    margin-left: -6px;;
-    /*
-    position: absolute;
-    margin-left: 20px;
-    margin-top: 6px;
-    */
-    width: 16px;
-    height: 16px;
-}
-
-
+/* Formatação da Lista */
 li {
-    display: none;
+    display: inline-block;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 3.5px;
@@ -46,50 +28,71 @@ li {
     padding: 6px;
 }
 
+/* Formatação de Itens (Menu) */
 .pItem {
     color: white;
     text-decoration: none;
 }
 
+/* Formatação da Ficha (Título) */
 h1 {
     text-align: center;
     text-shadow: 0.4px 0.4px 0.4px white;
 }
 
+/* Formatação das Alterações (Hover)*/
 #pHome:hover {
     background: rgba(255, 255, 255, 0.5);
     color: black;
     text-decoration: underline;
 }
-
 #pSobre:hover {
     background: rgba(255, 255, 255, 0.5);
     color: black;
     text-decoration: underline;
 }
-
 #pGit:hover {
     background: rgba(255, 255, 255, 0.5);
     color: black;
     text-decoration: underline;
 }
 
-input {
-    background: rgb(218, 211, 211);
-    margin-bottom: 5px;
-}
-
+/* Formatação da Área de Texto */
 textarea {
   width: 240px;
   height: 100px;
 }
 
+/* Formatação dos Input's */
 input {
     background: blue;
-    color: black;
+    color: white;
+    margin-bottom: 5px;
+}
+
+/* Formatação do Ícone do Menu */
+#barras {
+    width: 18px;
+    height: 18px;
+    margin-left: 5%;
+    margin: 2%;
+    background-image: url("icone.png");
+}
+#barras:hover li {
+   display: inline-block;
 }
 
 footer {
   margin-top: 10px;
   text-align: center;
 }
+
+/* Incompleto */
+@media screen (max-width: 1000px) {
+    body {
+        background: rgb(243, 13, 243);
+        width: 360px;
+        height: 750px;
+        margin: 0%;
+    };
+};

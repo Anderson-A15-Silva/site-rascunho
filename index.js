@@ -1,3 +1,4 @@
+// Armazenando Dados em Variáveis
 var pNome = document.getElementById("pNome");
 var nome = pNome;
 
@@ -25,7 +26,7 @@ var intelecto  = pInt;
 var pPre = document.getElementById("pPre");
 var presenca = pPre;
 
-
+// Exibição de Dados de Variáveis
 function exibirValores() {
     console.log("Nome :", nome)
     console.log("Nome :", idade)
@@ -37,10 +38,16 @@ function exibirValores() {
     console.log("Nome :", presenca)
 }
 
-/*
-const exibirMenu = () => {
-    let menu = document.head.querySelectorAll('li');
-    menu.style.display = 'inline-block'
+let menuState = true;
+let menuIndex = document.querySelectorAll("li")
 
+// Incompleto
+const exibirMenu = () => {
+    if (menuState === true) {
+    menuIndex.style.display = "none";
+    menuState = false;
+    } else {
+        menuIndex.style.display = "inline-block";
+        menuState = true;
+    }
 }
-*/
